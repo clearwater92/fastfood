@@ -1,0 +1,39 @@
+.menu-box {
+    background-color: rgba($color-white, .8);
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    transition: transform .3s;
+
+    &__pic {
+        background-size: cover;
+        height: 15rem;
+        width: 15rem;
+        
+        &-1 {
+            background-image: url(../img/menu1bigbaconclassicdouble.jpg);
+            margin: 0 auto;
+        }
+
+        &-2 {
+            background-image: url(../img/menu2baconjalapenocheese.jpg);
+            margin: 0 auto;
+        }
+
+        &-3 {
+            background-image: url(../img/menu3pretzelbaconpubcheeseburger.jpg);
+            margin: 0 auto;
+        }
+
+        &-4 {
+            background-image: url(../img/menu4sonofbaconator.jpg);
+            margin: 0 auto;
+        }
+    }
+
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.03);
+    }
+}
